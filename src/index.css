@@ -1,13 +1,24 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Grandstander', cursive;
+  background-image: linear-gradient(to right, rgba(96, 108, 136, 0.61), rgba(63, 76, 107, 0.61)), url(https://cdn.pixabay.com/photo/2016/10/22/17/46/scotland-1761292_1280.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  
+}
+
+.heading h1{
+  color: white;
+  font-size: 50px;
 }
