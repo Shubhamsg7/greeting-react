@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: 'Grandstander', cursive;
+    background-image: linear-gradient(to right, rgba(96, 108, 136, 0.61), rgba(63, 76, 107, 0.61)), url(https://cdn.pixabay.com/photo/2016/10/22/17/46/scotland-1761292_1280.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+  
+  }
+  
+  .heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    
+  }
+  
+  .heading h1{
+    color: white;
+    font-size: 50px;
+  }
